@@ -41,3 +41,7 @@ It is a middle-level app, which depends on modules exposed from remote app, for 
 ### 💠 React Host and NextJS Remote
 -  Module federation that has a host app with React and a remote app with NextJS
 - This type of module federated at folder: `react-host-nextjs-remote`
+
+### 💠 NextJS Host and React Remote
+-  Module federation that has a host app with NextJS and a remote app with React
+- This type of module federated at folder: `nextjs-host-react-remote`
