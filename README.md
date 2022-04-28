@@ -26,7 +26,10 @@ It is a middle-level app, which depends on modules exposed from remote app, for 
 
 
 
-### 🖇️ Types
+## 🖇️ Types
 - To run every type, please take a look: *Set Up and running module federation types* 
-#### NextJS Host and NextJS Remote
-> Module federation that has a host app with NextJS and a remote app with NextJS
+
+### 💠 NextJS Host and NextJS Remote
+-  Module federation that has a host app with NextJS and a remote app with NextJS
+- This type of module federated at folder: `nextjs-host-remote`
+
