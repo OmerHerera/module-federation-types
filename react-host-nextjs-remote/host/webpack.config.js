@@ -50,11 +50,16 @@ module.exports = {
       name: 'host',
       filename: 'remoteEntry.js',
       remotes: {
-        remote: 'remote@http://localhost:8081/remoteEntry.js',
+        remote: 'remote@http://localhost:8081/_next/static/chunks/remoteEntry.js'
       },
       exposes: {
       },
       shared: {
+        react: {
+          // Notice shared are NOT eager here.
+          requiredVersion: false,
+          singleton: true,
+        },
       },
     }),
     new HtmlWebpackPlugin({
