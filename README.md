@@ -4,6 +4,9 @@
 
 This repo has some examples of module federation that may exist, and it's a WIP, so we will add examples along the way, for instance, react host with react remote and more.
 
+* Disclaimer for NextJS apps you need the lates version of `@module-federation/nextjs-mf` that is a paid module, you can red more [here](https://app.privjs.com/buy/packageDetail?pkg=@module-federation/nextjs-mf)
+
+
 #### ⬇️ Host
 - It is a top-level app that depends on modules exposed from a remote app 
 - Runs on port `8080`
