@@ -14,7 +14,7 @@ const NextjsRemoteComponent = () => {
         alignItems: 'center',
         fontSize: '24px',
       }}>
-      Hello from Remote Nextjs component
+      Hello from Remote Nextjs component hosted on localhost:8081
     </nav>
   );
 };

@@ -5,13 +5,14 @@ module.exports = withFederatedSidecar({
   filename: "static/chunks/remoteEntry.js",
   exposes: {
     "./nextjs-remote-component": "./components/nextjs-remote-component.js",
+    "./nextjs-home-page": "./pages/index.js",
   },
   shared: {
-    react: {
-      // Notice shared are NOT eager here.
-      requiredVersion: false,
-      singleton: true,
-    },
+    // react: {
+    //   // Notice shared are NOT eager here.
+    //   requiredVersion: false,
+    //   singleton: true,
+    // },
   },
 })({
   // your original next.config.js export
