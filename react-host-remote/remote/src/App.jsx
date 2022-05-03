@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Nav from './components/Nav';
 
 function App() {
   return (
@@ -11,11 +12,11 @@ function App() {
       <div>
         This is the Remote App hosted at localhost:8081) 
       </div>
-      <nav
-      >
+      <nav>
         <Link to="/invoices">Invoices</Link> |{" "}
         <Link to="/expenses">Expenses</Link>
       </nav>
+      <Nav />
     </div>
       
   );
