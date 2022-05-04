@@ -1,4 +1,6 @@
 import * as React from 'react';
+// import styles from '../styles/Home.module.css'
+// console.log(styles)
 
 const NextjsRemoteComponent = () => {
   return (
